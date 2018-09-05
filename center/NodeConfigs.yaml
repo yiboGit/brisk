@@ -1,0 +1,16 @@
+node2.k8s.eglass:
+  hostname: node2.k8s.eglass
+  haspublic: true
+  privateip: "172.19.0.34"
+  publicip: "101.132.73.244"
+  maxcontainers: 12
+node1.k8s.eglass:
+  hostname: node1.k8s.eglass
+  haspublic: false
+  privateip: "172.19.157.62"
+  maxcontainers: 6
+master.k8s.eglass:
+  hostname: master.k8s.eglass
+  haspublic: false
+  privateip: "172.19.178.107"
+  maxcontainers: 6

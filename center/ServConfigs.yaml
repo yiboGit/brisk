@@ -1,0 +1,18 @@
+hello:
+  servicename: hello
+  replica: 3
+  meta:
+    port: "14000"
+    containerport: "8080"
+    needbetpublic: false
+    imageprefix: docker.epeijing.cn:5000/hello
+    etcd: 172.19.178.108:2379
+ws:
+  servicename: ws
+  replica: 1
+  meta:
+    port: "16000"
+    containerport: "8080"
+    neednetpublic: true
+    imageprefix: docker.epeijing.cn:5000/ws
+    etcd: 172.19.178.108:2379
