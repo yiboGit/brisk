@@ -17,20 +17,20 @@ import (
 
 // ServerInfo os取到的当前信息
 var (
-	// IP            = os.Getenv("IP")
-	// Port          = os.Getenv("Port")          // Port os获取配置文件上宿主机端口
-	// ContainerPort = os.Getenv("ContainerPort") // ContainerPort os获取配置文件上容器端口
-	// Host          = os.Getenv("Host")
-	// Etcd          = os.Getenv("Etcd") //"t.epeijing.cn:2379"
-	// ServiceName   = os.Getenv("ServiceName")
+	IP            = os.Getenv("IP")
+	Port          = os.Getenv("Port")          // Port os获取配置文件上宿主机端口
+	ContainerPort = os.Getenv("ContainerPort") // ContainerPort os获取配置文件上容器端口
+	Host          = os.Getenv("Host")
+	Etcd          = os.Getenv("Etcd") //"t.epeijing.cn:2379"
+	ServiceName   = os.Getenv("ServiceName")
 	// 测试使用
-	IP            = "127.0.0.1"
-	Port          = "8999" // Port os获取配置文件上宿主机端口
-	ContainerPort = "8999" // ContainerPort os获取配置文件上容器端口
-	Host          = "localhost"
-	Etcd          = "t.epeijing.cn:2379"
-	ServiceName   = "panel_service"
-	HostName      = GetHostname() // docker运行镜像时，这里取得的HostName，为容器的ID
+	// IP            = "127.0.0.1"
+	// Port          = "8999" // Port os获取配置文件上宿主机端口
+	// ContainerPort = "8999" // ContainerPort os获取配置文件上容器端口
+	// Host          = "localhost"
+	// Etcd          = "t.epeijing.cn:2379"
+	// ServiceName   = "panel_service"
+	HostName = GetHostname() // docker运行镜像时，这里取得的HostName，为容器的ID
 )
 
 // ServerInfo 服务注册信息
