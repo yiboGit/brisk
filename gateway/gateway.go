@@ -20,8 +20,9 @@ import (
 
 	"github.com/coreos/etcd/mvcc/mvccpb"
 
-	"eglass.com/brisk"
-	"eglass.com/utils"
+	"brisk"
+
+	"brisk/utils"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/labstack/echo"

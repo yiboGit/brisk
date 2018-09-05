@@ -14,7 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"eglass.com/brisk"
+	"brisk"
+
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/rs/xid"
